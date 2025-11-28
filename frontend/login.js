@@ -1,6 +1,6 @@
 // Login page JavaScript
-const API_BASE_URL = 'http://localhost:8000';
-const CHAT_WS_URL = 'ws://localhost:8001';
+const API_BASE_URL = 'http://ec2-44-220-42-247.compute-1.amazonaws.com';
+const CHAT_WS_URL = 'ws://ec2-3-236-56-54.compute-1.amazonaws.com';
 
 document.addEventListener('DOMContentLoaded', () => {
     const joinForm = document.getElementById('joinForm');

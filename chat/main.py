@@ -22,7 +22,7 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-AUTH_SERVICE_URL = "http://127.0.0.1:8000"
+AUTH_SERVICE_URL = "http://ec2-44-220-42-247.compute-1.amazonaws.com "
 
 # ======================= Helper Functions ===============================
 async def verify_user_group_membership(token: str, group_id: int) -> dict:

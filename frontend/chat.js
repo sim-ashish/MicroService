@@ -1,6 +1,6 @@
 // Chat page JavaScript
-const CHAT_WS_URL = 'ws://localhost:8001';
-const STREAM_API_URL = 'http://localhost:8002';
+const CHAT_WS_URL = 'ws://ec2-3-236-56-54.compute-1.amazonaws.com';
+const STREAM_API_URL = 'http://ec2-44-210-104-60.compute-1.amazonaws.com';
 
 let ws = null;
 let groupId = null;
